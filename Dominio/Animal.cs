@@ -1,7 +1,7 @@
 ﻿using System;
 using System.IO;
 
-namespace ProgramaCAO.Sistema.Solucao.Dominio
+namespace Dominio
 {
 public class Animal : IAcao
     {
@@ -10,17 +10,16 @@ public class Animal : IAcao
         public string Especie { get; set; }
         public string Genero { get; set; }
         public int Idade { get; set; }
+        public int IdCliente { get; set; }
 
-        public Cliente Dono { get; set; }
-        
         public Animal(){}
-        public Animal(int id, string nome, string especie, string genero, int idade, Cliente dono){
+        public Animal(int id, string nome, string especie, string genero, int idade, int idcliente){
             this.Id = id;
             this.Nome = nome;
             this.Especie = especie;
             this.Genero = genero;
             this.Idade = idade;
-            this.Dono = dono;
+            this.IdCliente = idcliente;
         }
 
         public bool Cadastrar()
@@ -36,7 +35,7 @@ public class Animal : IAcao
                     Especie+";"+
                     Genero+";"+
                     Idade+";"+
-                    Dono
+                    IdCliente
                     );
 
                 cadastroAnimal = true;
