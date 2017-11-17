@@ -1,0 +1,8 @@
+C:\Users\22386773809\backend\ProgramaCAO.Sistema.Solucao\bin\Debug\netstandard2.0\PetShop.deps.json
+C:\Users\22386773809\backend\ProgramaCAO.Sistema.Solucao\bin\Debug\netstandard2.0\PetShop.dll
+C:\Users\22386773809\backend\ProgramaCAO.Sistema.Solucao\bin\Debug\netstandard2.0\PetShop.pdb
+C:\Users\22386773809\backend\ProgramaCAO.Sistema.Solucao\obj\Debug\netstandard2.0\PetShop.csproj.CoreCompileInputs.cache
+C:\Users\22386773809\backend\ProgramaCAO.Sistema.Solucao\obj\Debug\netstandard2.0\PetShop.AssemblyInfoInputs.cache
+C:\Users\22386773809\backend\ProgramaCAO.Sistema.Solucao\obj\Debug\netstandard2.0\PetShop.AssemblyInfo.cs
+C:\Users\22386773809\backend\ProgramaCAO.Sistema.Solucao\obj\Debug\netstandard2.0\PetShop.dll
+C:\Users\22386773809\backend\ProgramaCAO.Sistema.Solucao\obj\Debug\netstandard2.0\PetShop.pdb
