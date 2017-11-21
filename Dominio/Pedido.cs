@@ -1,8 +1,8 @@
-using System;
+﻿using System;
 using System.IO;
 using System.Text;
 
-namespace ProgramaCAO.Sistema.Solucao_master.Dominio
+namespace ProgramaCAO.Sistema.Solucao.Dominio
 {
     public class Pedido : IAcao
     {
@@ -52,8 +52,11 @@ namespace ProgramaCAO.Sistema.Solucao_master.Dominio
 
         }
 
+        //public string Consultar(int idPedido)
+        //"Dominio\Pedido.cs(7,27): error CS0535: "Pedido" não implementa membro de interface "IAcao.Consultar()" [F:\2017.10 Back-End CodeXP\backend\ProgramaCAO.Sistema.Solucao\PetShop.csproj]"
         public string Consultar(int idPedido)
         {
+            // int idPedido = 0; //Miney: criei essa variável fora dos parênteses pois senão o sistema fala que não estou chamando o método igual ao da interface
 
             bool encontrado=false;
             string arquivo = "pedido.csv";

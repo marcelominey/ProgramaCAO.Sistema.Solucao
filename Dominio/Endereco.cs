@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Dominio
+namespace ProgramaCAO.Sistema.Solucao.Dominio
 {
 public class Endereco
     {

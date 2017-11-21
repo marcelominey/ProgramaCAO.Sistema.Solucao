@@ -1,10 +1,9 @@
-﻿using System;
-
-namespace Dominio
+﻿namespace ProgramaCAO.Sistema.Solucao.Dominio
 {
-    interface IAcao
+    public interface IAcao
     {
         bool Cadastrar();
-        string Consultar();
+
+        string Consultar(int id);
     }
 }

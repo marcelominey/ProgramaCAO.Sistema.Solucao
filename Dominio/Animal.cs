@@ -1,7 +1,8 @@
 ﻿using System;
 using System.IO;
+using System.Text;
 
-namespace Dominio
+namespace ProgramaCAO.Sistema.Solucao.Dominio
 {
 public class Animal : IAcao
     {
@@ -10,8 +11,9 @@ public class Animal : IAcao
         public string Especie { get; set; }
         public string Genero { get; set; }
         public int Idade { get; set; }
-        public int IdCliente { get; set; }
 
+        public Cliente Dono { get; set; }
+        
         public Animal(){}
         public Animal(int id, string nome, string especie, string genero, int idade, int idcliente){
             this.Id = id;
@@ -19,7 +21,7 @@ public class Animal : IAcao
             this.Especie = especie;
             this.Genero = genero;
             this.Idade = idade;
-            this.IdCliente = idcliente;
+            this.Dono.Id = idcliente;
         }
 
         public bool Cadastrar()
@@ -35,7 +37,7 @@ public class Animal : IAcao
                     Especie+";"+
                     Genero+";"+
                     Idade+";"+
-                    IdCliente
+                    Dono.Id
                     );
 
                 cadastroAnimal = true;
@@ -48,9 +50,28 @@ public class Animal : IAcao
             }
             return cadastroAnimal;
         }
-        public string Consultar()
-        {
-            return null;
+        public string Consultar(int Id) {   
+            StreamReader ler=null;
+            string resultado="Animal não encontrado!";
+
+            try{
+                ler=new StreamReader("arquivo.csv", Encoding.Default);
+                string linha="";
+                while((linha=ler.ReadLine())!=null){
+                    string[] dados=linha.Split(';');
+                    if(dados[0]==Id.ToString()){
+                    resultado=linha;
+                    break;
+                    }
+                }
+            }        
+            catch(Exception ex){
+                resultado="Erro ao consultar arquivo! "+ex.Message;
+            }           
+            finally{
+                ler.Close();
+            }
+        return resultado;
         }
     }
 }

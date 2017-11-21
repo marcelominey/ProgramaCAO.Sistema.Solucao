@@ -6,3 +6,11 @@ C:\Users\22386773809\backend\ProgramaCAO.Sistema.Solucao\obj\Debug\netstandard2.
 C:\Users\22386773809\backend\ProgramaCAO.Sistema.Solucao\obj\Debug\netstandard2.0\PetShop.AssemblyInfo.cs
 C:\Users\22386773809\backend\ProgramaCAO.Sistema.Solucao\obj\Debug\netstandard2.0\PetShop.dll
 C:\Users\22386773809\backend\ProgramaCAO.Sistema.Solucao\obj\Debug\netstandard2.0\PetShop.pdb
+F:\2017.10 Back-End CodeXP\backend\ProgramaCAO.Sistema.Solucao\bin\Debug\netstandard2.0\PetShop.deps.json
+F:\2017.10 Back-End CodeXP\backend\ProgramaCAO.Sistema.Solucao\bin\Debug\netstandard2.0\PetShop.dll
+F:\2017.10 Back-End CodeXP\backend\ProgramaCAO.Sistema.Solucao\bin\Debug\netstandard2.0\PetShop.pdb
+F:\2017.10 Back-End CodeXP\backend\ProgramaCAO.Sistema.Solucao\obj\Debug\netstandard2.0\PetShop.csproj.CoreCompileInputs.cache
+F:\2017.10 Back-End CodeXP\backend\ProgramaCAO.Sistema.Solucao\obj\Debug\netstandard2.0\PetShop.AssemblyInfoInputs.cache
+F:\2017.10 Back-End CodeXP\backend\ProgramaCAO.Sistema.Solucao\obj\Debug\netstandard2.0\PetShop.AssemblyInfo.cs
+F:\2017.10 Back-End CodeXP\backend\ProgramaCAO.Sistema.Solucao\obj\Debug\netstandard2.0\PetShop.dll
+F:\2017.10 Back-End CodeXP\backend\ProgramaCAO.Sistema.Solucao\obj\Debug\netstandard2.0\PetShop.pdb
