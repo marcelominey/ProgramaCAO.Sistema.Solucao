@@ -13,7 +13,7 @@ namespace Util
         /// <returns>retorna True caso os dígitos do CPF informado sejam válidos, ou False, 
         /// caso os dígitos do CPF informado sejam inválidos</returns>
                 
-        public bool ValidaCPF(string cpfUsuario)
+        public static bool ValidaCPF(string cpfUsuario)
         {
             bool retorno = true;
             string cpfCalculo = "";
