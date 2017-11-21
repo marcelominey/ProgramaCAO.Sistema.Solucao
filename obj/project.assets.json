@@ -183,11 +183,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\fic.INFO\\backend\\EdilsonPasta\\ProgramaCAO.Sistema.Solucao\\PetShop.csproj",
+      "projectUniqueName": "c:\\Users\\fic.INFO\\backend\\ProgramaCAO.Sistema.Solucao\\PetShop.csproj",
       "projectName": "PetShop",
-      "projectPath": "c:\\Users\\fic.INFO\\backend\\EdilsonPasta\\ProgramaCAO.Sistema.Solucao\\PetShop.csproj",
+      "projectPath": "c:\\Users\\fic.INFO\\backend\\ProgramaCAO.Sistema.Solucao\\PetShop.csproj",
       "packagesPath": "C:\\Users\\fic.INFO\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\fic.INFO\\backend\\EdilsonPasta\\ProgramaCAO.Sistema.Solucao\\obj\\",
+      "outputPath": "c:\\Users\\fic.INFO\\backend\\ProgramaCAO.Sistema.Solucao\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
